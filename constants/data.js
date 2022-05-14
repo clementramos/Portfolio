@@ -79,7 +79,7 @@ const userData = {
         company: "Lycée Jean Jaurès - St Clément de Rivière.",
         year: "2016",
         companyLink: "",
-        desc: "Graduated with a scientific baccalaureatte and a specialisation in compuer science."
+        desc: "Graduated with a scientific baccalaureatte and a specialisation in computer science."
       },
     ],
     resumeUrl:
