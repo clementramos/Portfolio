@@ -1,4 +1,7 @@
 ## Portfolio Website 💯
+
+[DOSSIER PROJET V2.pdf](https://github.com/clementramos/Portfolio/files/8693094/DOSSIER.PROJET.V2.pdf)
+
 # Features
 
 - Responsive layout, works well on both Mobile and Desktop
@@ -13,18 +16,21 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ## Landing
 
+![image](https://user-images.githubusercontent.com/81080837/168429802-9c845f70-a425-49ce-9092-9e50e727990a.png)
+
+![homepagemobile](https://user-images.githubusercontent.com/81080837/168429860-6dc8bea1-88bd-40e5-9805-72b6889e218e.png)
 
 ## About
 
+![aboutweb](https://user-images.githubusercontent.com/81080837/168429823-e8722f35-2021-4836-b020-f3cfb2328de5.png)
 
-## Projects
+## Latest Code
 
+![latestmobile](https://user-images.githubusercontent.com/81080837/168429831-de486bda-3142-46cb-8ff4-08c58562e593.png)
 
 ## Experience
 
-
-## Contact
-
+![experienceweb](https://user-images.githubusercontent.com/81080837/168429839-a33dae0e-af2a-4e02-92d4-7c0e12200e10.png)
 
 # Tech Stack
 
