@@ -1,4 +1,4 @@
-## Portfolio Website For Developers 💯
+## Portfolio Website 💯
 # Features
 
 - Responsive layout, works well on both Mobile and Desktop
