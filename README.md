@@ -1,7 +1,5 @@
 ## Portfolio Website 💯
 
-[DOSSIER PROJET V2.pdf](https://github.com/clementramos/Portfolio/files/8693094/DOSSIER.PROJET.V2.pdf)
-
 # Features
 
 - Responsive layout, works well on both Mobile and Desktop
