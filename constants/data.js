@@ -83,7 +83,7 @@ const userData = {
       },
     ],
     resumeUrl:
-      "https://docs.google.com/document/d/13zeYFdOoQa3AmBeRsirrIkxI0Vx4yaWJ/edit?usp=sharing&ouid=109901213624470587364&rtpof=true&sd=true",
+      "https://drive.google.com/file/d/1v0yQW23vKZilznn6BKZjpB957n-x6fEy/view?usp=sharing",
     socialLinks: {
       instagram: "https://instagram.com/clemskobe",
       twitter: "https://twitter.com/Tuco_34",
