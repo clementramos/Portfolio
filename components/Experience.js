@@ -1,5 +1,6 @@
 import userData from "@constants/data";
 import React from "react";
+import Link from "next/link";
 
 export default function Experience() {
   return (
@@ -45,9 +46,9 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
         {year}
       </h1>
       <h1 className="font-semibold text-xl">{title}</h1>
-      <a href={companyLink} className="text-gray-500">
+      <Link href={companyLink} className="text-gray-500">
         {company}
-      </a>
+      </Link>
       <p className="text-gray-600 dark:text-gray-400 my-2">{desc}</p>
     </div>
   );

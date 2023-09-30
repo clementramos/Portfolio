@@ -9,8 +9,8 @@ export default function FavouriteProjects() {
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-500 my-20 md:my-0 md:text-white dark:text-gray-600 text-center">
             Favourite Projects
           </h1>
-          <Link href="/projects">
-            <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
+          <Link href="/projects"
+            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -27,14 +27,14 @@ export default function FavouriteProjects() {
                 />
               </svg>
               <p>View all</p>
-            </a>
+            
           </Link>
         </header>
 
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
-          <a
+          <Link
             href="https://terrablock.fr"
             className="w-full block col-span-3 shadow-2xl"
           >
@@ -51,9 +51,9 @@ export default function FavouriteProjects() {
                 01
               </h1>
             </div>
-          </a>
+          </Link>
           {/* Single card */}
-          <a
+          <Link
             href="http://hypnoshotels.online/index.php"
             className="w-full block col-span-3  sm:col-span-2 shadow-2xl"
           >
@@ -71,10 +71,10 @@ export default function FavouriteProjects() {
                 02
               </h1>
             </div>
-          </a>
+          </Link>
           {/* Single card */}
-          <a
-            href="#"
+          <Link
+            href="/about"
             className="w-full block col-span-3 sm:col-span-1  object-cover"
           >
             <div className="relative overflow-hidden shadow-2xl">
@@ -91,7 +91,7 @@ export default function FavouriteProjects() {
                 03
               </h1>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

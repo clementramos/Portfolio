@@ -3,13 +3,14 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Link from "next/link";
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
     title: "Clément Ramos - Developer, Student.",
-    description: `I've been developing websites for 1 years straight. Get in touch with me to know more.`,
+    description: `I've been developing websites for 2 years straight. Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,
@@ -24,7 +25,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           property="og:url"
           content={`https://yourwebsite.com${router.asPath}`}
         />
-        <link
+        <Link
           rel="canonical"
           href={`https://yourwebsite.com${router.asPath}`}
         />
