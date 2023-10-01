@@ -6,11 +6,22 @@ import userData from "@constants/data";
 export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState([]);
 
-  useEffect(async () => {
-    // let latestRepos = await getLatestRepos(userData);
-    // console.log("latestRepos", latestRepos);
+  const standaloneRepos = async() => {
+    let latestRepos = await getLatestRepos(userData);
+    console.log("latestRepos", latestRepos);
     setRepos(repositories);
-  }, []);
+  }
+
+  useEffect(() => {
+    standaloneRepos();
+  },[])
+
+  // useEffect(async () => {
+  //   let latestRepos = await getLatestRepos(userData);
+  //   console.log("latestRepos", latestRepos);
+  //   setRepos(repositories);
+  // }, []);
+
   return (
     <section className="bg-[#F1F1F1] -mt-40 dark:bg-gray-900 pb-40">
       <div className="max-w-6xl mx-auto">
