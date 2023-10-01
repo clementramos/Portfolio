@@ -51,8 +51,8 @@ export default function AboutMe() {
                 Job Opportunities
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for an internship currently, If you see me as a good fit,
-                check my{" "}
+                I'm looking for an internship currently, If you see me as a good
+                fit, check my{" "}
                 <Link
                   href={userData.resumeUrl}
                   target="__blank"
@@ -73,9 +73,9 @@ export default function AboutMe() {
                   href={userData.socialLinks.facebook}
                   className="flex flex-row items-center space-x-4 group"
                 >
-                  <div className="my-4">&rarr;</div>
+                  <div className="my-4">&rarr;</div>{" "}
+                  <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     Facebook
                   </p>
                 </Link>
@@ -87,6 +87,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    {" "}
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     Twitter
                   </p>
@@ -99,6 +100,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    {" "}
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     GitHub
                   </p>
@@ -111,6 +113,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    {" "}
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     LinkedIn
                   </p>
@@ -123,6 +126,7 @@ export default function AboutMe() {
                 >
                   <div className="my-4">&rarr;</div>
                   <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    {" "}
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
                     Instagram
                   </p>
